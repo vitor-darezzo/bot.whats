@@ -4,7 +4,7 @@ const fs = require('fs');
 
 async function exportReportToExcel(report, filename = 'relatorio.xlsx') {
   const workbook = new ExcelJS.Workbook();
-  const sheet = workbook.addWorksheet('Relatório CIKALA');
+  const sheet = workbook.addWorksheet('Relatório');
 
   sheet.columns = [
     { header: 'Categoria', key: 'categoria', width: 25 },

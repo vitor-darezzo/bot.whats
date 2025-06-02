@@ -109,10 +109,10 @@ class SecureDatabase {
 // Mapeamento dos vendedores/canais
 const VENDEDORES = {
   vendas: {
-    '1': { nome: 'Alexandra', tipo: 'Vendas' },
-    '2': { nome: 'Rafael', tipo: 'Vendas' },
-    '3': { nome: 'Lucas', tipo: 'Vendas' },
-    '4': { nome: 'Bruna', tipo: 'Vendas' }
+    '1': { nome: 'vendedor1', tipo: 'Vendas' },
+    '2': { nome: 'vendedor2', tipo: 'Vendas' },
+    '3': { nome: 'vendedor3', tipo: 'Vendas' },
+    '4': { nome: 'vendedor4', tipo: 'Vendas' }
   },
   pedidos: {
     '1': { nome: 'Posição de Pedido', tipo: 'Logística' }
